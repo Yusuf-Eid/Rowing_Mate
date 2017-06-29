@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "789CE9641EB279AC00ADC3FD"
-               BuildableName = "Rowing expert.app"
-               BlueprintName = "Rowing expert"
-               ReferencedContainer = "container:Rowing expert.xcodeproj">
+               BuildableName = "Rowing Mate.app"
+               BlueprintName = "Rowing Mate"
+               ReferencedContainer = "container:Rowing Mate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "789CE9641EB279AC00ADC3FD"
-            BuildableName = "Rowing expert.app"
-            BlueprintName = "Rowing expert"
-            ReferencedContainer = "container:Rowing expert.xcodeproj">
+            BuildableName = "Rowing Mate.app"
+            BlueprintName = "Rowing Mate"
+            ReferencedContainer = "container:Rowing Mate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "789CE9641EB279AC00ADC3FD"
-            BuildableName = "Rowing expert.app"
-            BlueprintName = "Rowing expert"
-            ReferencedContainer = "container:Rowing expert.xcodeproj">
+            BuildableName = "Rowing Mate.app"
+            BlueprintName = "Rowing Mate"
+            ReferencedContainer = "container:Rowing Mate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "789CE9641EB279AC00ADC3FD"
-            BuildableName = "Rowing expert.app"
-            BlueprintName = "Rowing expert"
-            ReferencedContainer = "container:Rowing expert.xcodeproj">
+            BuildableName = "Rowing Mate.app"
+            BlueprintName = "Rowing Mate"
+            ReferencedContainer = "container:Rowing Mate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

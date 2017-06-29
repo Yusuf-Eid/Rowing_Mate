@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		789CE9651EB279AC00ADC3FD /* Rowing expert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rowing expert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789CE9651EB279AC00ADC3FD /* Rowing Mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rowing Mate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		789CE9681EB279AC00ADC3FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		789CE96A1EB279AC00ADC3FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		789CE96D1EB279AC00ADC3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		789CE95C1EB279AC00ADC3FD = {
 			isa = PBXGroup;
 			children = (
-				789CE9671EB279AC00ADC3FD /* Rowing expert */,
+				789CE9671EB279AC00ADC3FD /* Rowing Mate */,
 				789CE9661EB279AC00ADC3FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		789CE9661EB279AC00ADC3FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				789CE9651EB279AC00ADC3FD /* Rowing expert.app */,
+				789CE9651EB279AC00ADC3FD /* Rowing Mate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		789CE9671EB279AC00ADC3FD /* Rowing expert */ = {
+		789CE9671EB279AC00ADC3FD /* Rowing Mate */ = {
 			isa = PBXGroup;
 			children = (
 				789CE9681EB279AC00ADC3FD /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				789CE9711EB279AD00ADC3FD /* LaunchScreen.storyboard */,
 				789CE9741EB279AD00ADC3FD /* Info.plist */,
 			);
-			path = "Rowing expert";
+			path = "Rowing Mate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		789CE9641EB279AC00ADC3FD /* Rowing expert */ = {
+		789CE9641EB279AC00ADC3FD /* Rowing Mate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 789CE9771EB279AD00ADC3FD /* Build configuration list for PBXNativeTarget "Rowing expert" */;
+			buildConfigurationList = 789CE9771EB279AD00ADC3FD /* Build configuration list for PBXNativeTarget "Rowing Mate" */;
 			buildPhases = (
 				789CE9611EB279AC00ADC3FD /* Sources */,
 				789CE9621EB279AC00ADC3FD /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Rowing expert";
+			name = "Rowing Mate";
 			productName = "Rowing expert";
-			productReference = 789CE9651EB279AC00ADC3FD /* Rowing expert.app */;
+			productReference = 789CE9651EB279AC00ADC3FD /* Rowing Mate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 789CE9601EB279AC00ADC3FD /* Build configuration list for PBXProject "Rowing expert" */;
+			buildConfigurationList = 789CE9601EB279AC00ADC3FD /* Build configuration list for PBXProject "Rowing Mate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				789CE9641EB279AC00ADC3FD /* Rowing expert */,
+				789CE9641EB279AC00ADC3FD /* Rowing Mate */,
 			);
 		};
 /* End PBXProject section */
@@ -262,9 +262,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Rowing expert/Info.plist";
+				INFOPLIST_FILE = "Rowing Mate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Rowing.Rowing-expert";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rowing.Rowing-Mate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Rowing expert/Info.plist";
+				INFOPLIST_FILE = "Rowing Mate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Rowing.Rowing-expert";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rowing.Rowing-Mate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		789CE9601EB279AC00ADC3FD /* Build configuration list for PBXProject "Rowing expert" */ = {
+		789CE9601EB279AC00ADC3FD /* Build configuration list for PBXProject "Rowing Mate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				789CE9751EB279AD00ADC3FD /* Debug */,
@@ -294,13 +294,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		789CE9771EB279AD00ADC3FD /* Build configuration list for PBXNativeTarget "Rowing expert" */ = {
+		789CE9771EB279AD00ADC3FD /* Build configuration list for PBXNativeTarget "Rowing Mate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				789CE9781EB279AD00ADC3FD /* Debug */,
 				789CE9791EB279AD00ADC3FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
