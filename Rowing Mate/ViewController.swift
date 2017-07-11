@@ -7,19 +7,60 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , CLLocationManagerDelegate {
+    
+//    //@IBOutlet weak var mapView: MKMapView!
+//    let locationManager = CLLocationManager()
+//    var startLocation: CLLocation!
+//    var lastLocation: CLLocation!
+//    //var startDate: Date!
+//    var traveledDistance: Double = 0
     
     //MARK: Properties
 
+//    @IBOutlet weak var Distance: UILabel!
+//    @IBOutlet weak var Speed: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var usernameNameLabel: UILabel!
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        if CLLocationManager.locationServicesEnabled() {
+//            locationManager.delegate = self
+//            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+//            locationManager.requestWhenInUseAuthorization()
+//            locationManager.startUpdatingLocation()
+//            locationManager.startMonitoringSignificantLocationChanges()
+//            locationManager.distanceFilter = 2
+//            //mapView.showsUserLocation = true
+//            //mapView.userTrackingMode = .follow
+//        }
+        
         print("Hello world")
     }
+    
+//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+//        print(locations.last ?? "none")
+//        //if startDate == nil {
+//        //    startDate = Date()
+//        //} else {
+//        //    print("elapsedTime:", String(format: "%.0fs", Date().timeIntervalSince(startDate)))
+//        //}
+//        if startLocation == nil {
+//            startLocation = locations.first
+//        } else if let location = locations.last {
+//            traveledDistance += lastLocation.distance(from: location)
+//            //print("Traveled Distance:",  traveledDistance)
+//            Distance.text = "\(traveledDistance)"
+//            Speed.text = "\(location.speed)"
+//            //print("Straight Distance:", startLocation.distance(from: locations.last!))
+//        }
+//        lastLocation = locations.last
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -29,6 +70,8 @@ class ViewController: UIViewController {
     //MARK: Actions
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
         usernameNameLabel.text = "Default Text"
+        performSegue(withIdentifier: "Segue", sender: self)
     }
+    
 }
 

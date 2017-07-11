@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7898FC981F0A954200908613 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7898FC971F0A954200908613 /* CoreLocation.framework */; };
+		7898FC9A1F0D184900908613 /* Training sessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898FC991F0D184800908613 /* Training sessionViewController.swift */; };
 		789CE9691EB279AC00ADC3FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789CE9681EB279AC00ADC3FD /* AppDelegate.swift */; };
 		789CE96B1EB279AC00ADC3FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789CE96A1EB279AC00ADC3FD /* ViewController.swift */; };
 		789CE96E1EB279AC00ADC3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789CE96C1EB279AC00ADC3FD /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7898FC971F0A954200908613 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7898FC991F0D184800908613 /* Training sessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Training sessionViewController.swift"; sourceTree = "<group>"; };
 		789CE9651EB279AC00ADC3FD /* Rowing Mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rowing Mate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		789CE9681EB279AC00ADC3FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		789CE96A1EB279AC00ADC3FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7898FC981F0A954200908613 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7898FC961F0A954100908613 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7898FC971F0A954200908613 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		789CE95C1EB279AC00ADC3FD = {
 			isa = PBXGroup;
 			children = (
 				789CE9671EB279AC00ADC3FD /* Rowing Mate */,
 				789CE9661EB279AC00ADC3FD /* Products */,
+				7898FC961F0A954100908613 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +71,7 @@
 				789CE9681EB279AC00ADC3FD /* AppDelegate.swift */,
 				789CE96A1EB279AC00ADC3FD /* ViewController.swift */,
 				789CE96C1EB279AC00ADC3FD /* Main.storyboard */,
+				7898FC991F0D184800908613 /* Training sessionViewController.swift */,
 				789CE96F1EB279AD00ADC3FD /* Assets.xcassets */,
 				789CE9711EB279AD00ADC3FD /* LaunchScreen.storyboard */,
 				789CE9741EB279AD00ADC3FD /* Info.plist */,
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					789CE9641EB279AC00ADC3FD = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N9V67V685Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +154,7 @@
 			files = (
 				789CE96B1EB279AC00ADC3FD /* ViewController.swift in Sources */,
 				789CE9691EB279AC00ADC3FD /* AppDelegate.swift in Sources */,
+				7898FC9A1F0D184900908613 /* Training sessionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9V67V685Z;
 				INFOPLIST_FILE = "Rowing Mate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rowing.Rowing-Mate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +293,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9V67V685Z;
 				INFOPLIST_FILE = "Rowing Mate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Rowing.Rowing-Mate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
