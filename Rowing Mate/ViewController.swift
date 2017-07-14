@@ -22,8 +22,7 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
 
 //    @IBOutlet weak var Distance: UILabel!
 //    @IBOutlet weak var Speed: UILabel!
-    @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var usernameNameLabel: UILabel!
+
    
     
     override func viewDidLoad() {
@@ -68,10 +67,11 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
     }
 
     //MARK: Actions
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        usernameNameLabel.text = "Default Text"
+    
+    @IBAction func startNewSession(_ sender: Any) {
         performSegue(withIdentifier: "Segue", sender: self)
     }
-    
+
+
 }
 
