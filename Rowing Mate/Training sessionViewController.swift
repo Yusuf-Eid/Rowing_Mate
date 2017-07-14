@@ -189,15 +189,16 @@ class Training_sessionViewController: UIViewController , CLLocationManagerDelega
         
        if startLoc{
           
-            print("entered")
+            //print("entered")
             if startLocation == nil {
                 startLocation = locations.first
             } else if let location = locations.last {
                 traveledDistance += lastLocation.distance(from: location)
                 
-                print("distchange")
+                traveledDistance = round(100*traveledDistance)/100
                 Dist.text = "\(traveledDistance)"
-                Spd.text = "\(location.speed)"
+                //Spd.text = "\(location.speed)"
+                Spd.text = "\(round(100*location.speed)/100)"
                 
             }
             lastLocation = locations.last
